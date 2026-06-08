@@ -44,6 +44,56 @@ export const crystalPoolSection: PortfolioSection = {
   subtitle: "Social Media Content & Visual Design",
 };
 
+export const crystalPoolCategories: CategoryPosts[] = [
+  {
+    label: "Swimming Pool Products",
+    posts: [
+      { shortcode: "DF4wzmuNTva", type: "post" },
+      { shortcode: "DF48T1mh4Cr", type: "post" },
+      { shortcode: "DF7M-zGPZ2i", type: "post" },
+      { shortcode: "DF912NkhJRU", type: "post" },
+      { shortcode: "DHszur_u886", type: "post" },
+      { shortcode: "DQ_cPMviMtK", type: "post" },
+    ],
+  },
+  {
+    label: "Robots & Electric",
+    posts: [
+      { shortcode: "DLh-Vh9C03K", type: "post" },
+      { shortcode: "DLz4PF-oKr3", type: "post" },
+    ],
+  },
+  {
+    label: "Advices",
+    posts: [
+      { shortcode: "DF0Ifwppf2z", type: "post" },
+      { shortcode: "DGLEu2UJ7qx", type: "post" },
+      { shortcode: "DGN4ZXBiVcN", type: "post" },
+      { shortcode: "DGQIj1DiF5y", type: "post" },
+      { shortcode: "DGdUyh3qXYZ", type: "post" },
+    ],
+  },
+  {
+    label: "Holidays",
+    posts: [
+      { shortcode: "DGwDRhIiWez", type: "post" },
+      { shortcode: "DH32NI-CUhO", type: "post" },
+      { shortcode: "DI6YIBHtZCl", type: "post" },
+      { shortcode: "DKjMYUji5CZ", type: "post" },
+    ],
+  },
+  {
+    label: "Reels",
+    posts: [
+      { shortcode: "DJoc9PZCagm", type: "reel" },
+      { shortcode: "DLFvoCcoXGN", type: "reel" },
+      { shortcode: "DLirnD0ihpi", type: "reel" },
+      { shortcode: "DL0fMbVIX5L", type: "reel" },
+    ],
+  },
+];
+
+
 export const cryptoClubEvents: PortfolioEvent[] = [
   {
     id: "event-01",
@@ -226,51 +276,3 @@ export const cryptoClubRandomPosts: RandomPost[] = [
   { shortcode: "C8UPu7BoJRk", type: "post" },
 ];
 
-export const crystalPoolCategories: CategoryPosts[] = [
-  {
-    label: "Swimming Pool Products",
-    posts: [
-      { shortcode: "DF4wzmuNTva", type: "post" },
-      { shortcode: "DF48T1mh4Cr", type: "post" },
-      { shortcode: "DF7M-zGPZ2i", type: "post" },
-      { shortcode: "DF912NkhJRU", type: "post" },
-      { shortcode: "DHszur_u886", type: "post" },
-      { shortcode: "DQ_cPMviMtK", type: "post" },
-    ],
-  },
-  {
-    label: "Robots & Electric",
-    posts: [
-      { shortcode: "DLh-Vh9C03K", type: "post" },
-      { shortcode: "DLz4PF-oKr3", type: "post" },
-    ],
-  },
-  {
-    label: "Advices",
-    posts: [
-      { shortcode: "DF0Ifwppf2z", type: "post" },
-      { shortcode: "DGLEu2UJ7qx", type: "post" },
-      { shortcode: "DGN4ZXBiVcN", type: "post" },
-      { shortcode: "DGQIj1DiF5y", type: "post" },
-      { shortcode: "DGdUyh3qXYZ", type: "post" },
-    ],
-  },
-  {
-    label: "Holidays",
-    posts: [
-      { shortcode: "DGwDRhIiWez", type: "post" },
-      { shortcode: "DH32NI-CUhO", type: "post" },
-      { shortcode: "DI6YIBHtZCl", type: "post" },
-      { shortcode: "DKjMYUji5CZ", type: "post" },
-    ],
-  },
-  {
-    label: "Reels",
-    posts: [
-      { shortcode: "DJoc9PZCagm", type: "reel" },
-      { shortcode: "DLFvoCcoXGN", type: "reel" },
-      { shortcode: "DLirnD0ihpi", type: "reel" },
-      { shortcode: "DL0fMbVIX5L", type: "reel" },
-    ],
-  },
-];
