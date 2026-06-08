@@ -9,8 +9,8 @@ export default function App() {
     <div className="bg-neutral-950 text-white antialiased">
       <Header />
       <Hero />
-      <CryptoClubSection />
       <CrystalPoolSection />
+      <CryptoClubSection />
       <Footer />
     </div>
   );
