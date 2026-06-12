@@ -20,12 +20,6 @@ export default function CryptoClubSection() {
           <div className="mt-4 h-px bg-gradient-to-r from-cyan-500/40 via-cyan-500/10 to-transparent" />
         </div>
 
-        <div className="space-y-6">
-          {cryptoClubEvents.map((event, index) => (
-            <EventCard key={event.id} event={event} index={index} />
-          ))}
-        </div>
-
         <div className="mt-20">
           <div className="flex items-center gap-3 mb-8">
             <Sparkles className="w-5 h-5 text-cyan-400" />
@@ -42,6 +36,13 @@ export default function CryptoClubSection() {
             ))}
           </div>
         </div>
+        
+        <div className="space-y-6">
+          {cryptoClubEvents.map((event, index) => (
+            <EventCard key={event.id} event={event} index={index} />
+          ))}
+        </div>
+
       </div>
     </section>
   );
