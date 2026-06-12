@@ -35,8 +35,9 @@ export default function CryptoClubSection() {
               />
             ))}
           </div>
+          <div className="mt-4 h-px bg-gradient-to-r from-cyan-500/40 via-cyan-500/10 to-transparent" />
         </div>
-        
+
         <div className="space-y-6">
           {cryptoClubEvents.map((event, index) => (
             <EventCard key={event.id} event={event} index={index} />
