@@ -30,7 +30,7 @@ export default function Hero() {
           Check my Online
           <br />
           <span className="bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-400 bg-clip-text text-transparent">
-            Presence
+            Presence 2023-2025
           </span>
         </h1>
 
