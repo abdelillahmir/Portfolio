@@ -257,7 +257,7 @@ export default function Hero() {
           >
             <span className="rounded-full border border-cyan-500/20 bg-cyan-500/[0.06] px-4 py-1.5 font-mono text-[10px] tracking-[0.22em] text-cyan-400/80">
               {showContent && (
-                <Typewriter text="WELCOME TO MY CREATIVE PORTFOLIO 2023-2025" startDelay={100} />
+                <Typewriter text="WELCOME TO MY CREATIVE PORTFOLIO 2023-2025.." startDelay={100} />
               )}
             </span>
           </div>
@@ -294,7 +294,7 @@ export default function Hero() {
               transition: "opacity 0.6s ease 2.7s, transform 0.6s ease 2.7s",
             }}
           >
-            Multimedia designer and Event manager, over 3 years building visual identities, social media content, and event production that converts.
+            Video Editor, Multimedia designer and Event manager, over 3 years building visual identities, social media content, and event production that converts.
           </p>
 
           {/* CTA icons */}
