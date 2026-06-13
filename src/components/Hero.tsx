@@ -244,33 +244,6 @@ export default function Hero() {
           />
         )}
 
-        {/* ── NAV ── */}
-        <nav className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-5">
-          {/* Brand — glitch on hover */}
-          <span
-            className="relative cursor-default select-none font-mono text-[13px] font-bold tracking-wide text-white"
-          >
-            <span
-              className="relative"
-              onMouseEnter={(e) => {
-                e.currentTarget.style.animation = "glitch 0.4s steps(1) forwards";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.animation = "";
-              }}
-            >
-              A6<span className="text-cyan-400">delillah</span>
-            </span>
-          </span>
-          <div className="flex gap-7">
-            {["Home", "Crypto Club", "Crystal Pool"].map((l) => (
-              <a key={l} href="#" className="text-[13px] font-medium text-white/60 transition hover:text-white">
-                {l}
-              </a>
-            ))}
-          </div>
-        </nav>
-
         {/* ── HERO CONTENT ── */}
         <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 text-center">
 
