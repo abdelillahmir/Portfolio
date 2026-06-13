@@ -257,16 +257,16 @@ export default function Hero() {
           >
             <span className="rounded-full border border-cyan-500/20 bg-cyan-500/[0.06] px-4 py-1.5 font-mono text-[10px] tracking-[0.22em] text-cyan-400/80">
               {showContent && (
-                <Typewriter text="WELCOME TO MY CREATIVE PORTFOLIO" startDelay={100} />
+                <Typewriter text="WELCOME TO MY CREATIVE PORTFOLIO 2023-2025" startDelay={100} />
               )}
             </span>
           </div>
 
           {/* Headline — word-by-word reveal */}
           <h1 className="mb-2 text-5xl font-black leading-[1.08] tracking-tight text-white md:text-7xl">
-            <WordReveal delay={1700}>Check</WordReveal>{" "}
-            <WordReveal delay={1850}>my</WordReveal>{" "}
-            <WordReveal delay={2000}>Online</WordReveal>
+            <WordReveal delay={1700}>Content</WordReveal>{" "}
+            <WordReveal delay={1850}>That</WordReveal>{" "}
+            <WordReveal delay={2000}>Speak</WordReveal>
           </h1>
 
           {/* Gradient line */}
@@ -282,7 +282,7 @@ export default function Hero() {
               transition: "opacity 0.6s ease 2.3s, transform 0.6s ease 2.3s",
             }}
           >
-            Presence 2023-2025
+            For Every Brand.
           </p>
 
           {/* Subheadline */}
@@ -294,8 +294,7 @@ export default function Hero() {
               transition: "opacity 0.6s ease 2.7s, transform 0.6s ease 2.7s",
             }}
           >
-            Multimedia designer &amp; event manager — bringing brands to life through
-            visual identity, social media content, and event production.
+            Multimedia designer and Event manager, over 3 years building visual identities, social media content, and event production that converts.
           </p>
 
           {/* CTA icons */}
